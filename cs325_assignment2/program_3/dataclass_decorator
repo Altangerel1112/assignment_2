@@ -1,0 +1,14 @@
+from dataclasses import dataclass
+
+@dataclass
+class Book:
+    title: str
+    author: str
+    year: int
+
+def main():
+    book = Book("1984", "George Orwell", 1949)
+    print(f'Title: {book.title}, Author: {book.author}, Year: {book.year}')
+
+if __name__ == "__main__":
+    main()

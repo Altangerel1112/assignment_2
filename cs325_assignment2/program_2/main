@@ -1,0 +1,8 @@
+from module.module_1.custom_function import greet
+
+def main():
+    name = "Alice"
+    print(greet(name))
+
+if __name__ == "__main__":
+    main()
